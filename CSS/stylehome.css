@@ -1,0 +1,383 @@
+
+.bod {
+    overflow-x: hidden;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+nav{
+    width: 100vw;
+    padding-left:0px ;
+    padding-right:20px ;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+.cont{
+    display: flex;
+    width: 90vw;;
+    justify-content: flex-end;
+    padding-top: 19.95px;
+    padding-bottom: 19.95px;
+}
+
+.cont a {
+    width: 77.65px;
+    height: 30px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+}
+.con{
+    color: #00b39b;
+}
+.sin:hover{
+    color: #00b39b;
+}
+.sin{
+    color:#ababab;
+}
+.logo , .c{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+  .grid>p {
+    font-family: Calibri  ;
+    font-weight: 200;
+    letter-spacing: -.3px;
+    font-size: x-large;
+    color: #747474;
+    width: 32.078vw    ;
+    height: 31.025vw;
+    padding:10px;
+}
+.title{
+    text-align: center;
+    color: #00b39b;
+    font-size: 1.755rem;
+    margin: 34px;
+    height:70px;
+    font-family: Calibri light ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+    display: flex;
+    justify-content: center;
+}
+section-a{
+    width: 1015px;
+    padding:  20px;
+    
+}
+.grid{
+    display: flex;
+    width: 100vw;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 25vw;
+    flex-wrap: wrap;
+
+}
+.patients{
+    background-color:#00ccb1 ;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:22vw;
+    height: 35vh;
+    border-radius: 5%;
+}
+.doctor{
+    background-color:blue ;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:22vw;
+    height: 35vh;
+    border-radius: 5%;
+}
+.clinic{
+    background-color:#747474 ;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:22vw;
+    height:35vh;
+    border-radius: 5%;
+}
+
+.clinic h1,.doctor h1, .patients h1{
+    color: white;
+    font-size: 25px;
+}
+.clinic h2,.doctor h2, .patients h2{
+    color: white;
+    font-size: 15px;
+}
+section-b{
+    display: flex ;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.patients h1 , .patients h2 , .doctor h1, .doctor h2, .clinic h1, .clinic h2{
+    font-family: Calibri light ;
+    font-weight: 200;
+    letter-spacing: -.3px;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0px;
+
+}
+.clinic select {
+    background-color:#747474;
+    color: white;
+    width: 120px;
+}
+.doctor select{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+.patients select {
+    background-color: #00ccb1;
+    color: white;
+    border-color: #00ccb1;
+}
+.one {
+font-family: Calibri ;
+}
+section-c {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+.cc {
+    margin: 0;
+    position: left;
+    text-align: center;
+}
+.c-logos a{
+padding-top: 5px;
+padding-bottom: 5px ;
+display: block;
+text-decoration: none;
+color: #ababab;
+text-align: center;
+font-size: larger;
+
+}
+.c-logos a:hover{
+    color: #00ccb1;
+}
+.c-logos{
+display:grid;
+grid-template-columns: 10vw 10vw 10vw 10vw;
+grid-template-rows:  5vw 5vw 5vw 5vw;
+position: right;
+}
+section-c >h1{
+    color: #00b39b;
+    font-size: 2.755rem;
+    margin: 34px;
+    height: 88.4px;
+    width: 458.4px;
+    font-family: Calibri  ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+}
+.ah{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.co{
+    background-color: #e5faf8;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    justify-content: center;
+}
+.l{
+    position:relative;
+    top: 0px;
+    bottom: 0px;
+    right: 680px;
+    left:-270px ;
+    width: 500px;
+    height:432px;
+    z-index: 1 ;
+
+}
+#m{
+    color: #00b39b;
+    font-size: 2.755rem;
+    margin: 34px;
+    height: 88.4px;
+    width: 100vw;
+    font-family: Calibri light ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+    text-align: left;
+}
+div-a{
+    margin-top: 22.4px;
+    margin-bottom: 22.4px;
+    width: 415px;
+}
+.mel{
+    display: grid;
+    grid-template-rows: 25vw 25vw;
+    grid-template-columns: 30vh 30vh;
+    gap: 30px;
+}
+.container, .containe{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10% ;
+    text-align: center;
+    color: #00b39b;
+    font-size: medium;
+    font-family: Calibri light  ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+    padding:20px;
+    height: 250px;
+    width: 150px;
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.containe{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+div-k{
+    display: flex;
+    flex-direction: column-reverse;
+}
+div-a>p, .container p,.containe p{
+    text-align: center;
+    color: #ababab;
+    font-size: medium;
+    font-family: Calibri  light;
+    font-weight: 10;
+    letter-spacing: -.3px;
+    margin-top: 7px;
+}
+.containe h3, .container h3{
+    text-align: center;
+    color: #00b39b;
+    font-size: x-large;
+    font-family: Calibri light  ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+}
+.titl{
+    text-align: center;
+    color: #00b39b;
+    font-size: 2.755rem;
+    margin: 34px;
+    height:70px;
+    font-family: Calibri light ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+    margin-left: 200px;
+}
+
+.seh{
+    text-align: center;
+    color: #747474;
+    font-size: 1.755rem;
+    margin: 34px;
+    height:70px;
+    font-family: Calibri light ;
+    font-weight: 10;
+    letter-spacing: -.3px;
+    display: flex;
+    justify-content: center;
+}
+
+div-d{
+    display: grid;
+    grid-template-columns: 342px 342px 342px;
+    grid-template-rows: 393px 393px 393px;
+    padding-left: 200px;
+    gap: 50px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    width: 200px;
+    height: 30px;
+    margin-left: 60px;
+    font-family: Calibri light;
+    letter-spacing: -.3px;
+}
+#button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    width: 200px;
+    height: 40px;
+    margin-left: 700px;
+    font-family: Calibri light;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+.footer a, .footer p{
+    text-decoration: none;
+    text-align: center;
+    font-family: calibri light;
+    letter-spacing: -.3px;
+    font-size: 1rem;
+    color: #747474;
+}
+.footer{
+    margin-left: 200px;
+}
+h2{
+    text-align: left;
+    font-family: calibri light;
+    letter-spacing: -.3px;
+    font-size: 1.7rem;
+    color: #747474;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.dropdown {
+    padding: 20px;
+}
+  
+a {
+    color: #747474;
+    text-decoration: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+  
+.in:hover .dropdown-content {
+    display: block;
+}
+  
